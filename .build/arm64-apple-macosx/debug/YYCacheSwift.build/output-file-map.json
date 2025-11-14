@@ -1,0 +1,68 @@
+{
+  "": {
+    "swift-dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/master.swiftdeps"
+  },
+  "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Cache.swift": {
+    "dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Cache.d",
+    "object": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Cache.swift.o",
+    "swiftmodule": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Cache~partial.swiftmodule",
+    "swift-dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Cache.swiftdeps",
+    "diagnostics": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Cache.dia"
+  },
+  "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/CoalescingWriter.swift": {
+    "dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/CoalescingWriter.d",
+    "object": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/CoalescingWriter.swift.o",
+    "swiftmodule": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/CoalescingWriter~partial.swiftmodule",
+    "swift-dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/CoalescingWriter.swiftdeps",
+    "diagnostics": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/CoalescingWriter.dia"
+  },
+  "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/DiskStorage.swift": {
+    "dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/DiskStorage.d",
+    "object": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/DiskStorage.swift.o",
+    "swiftmodule": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/DiskStorage~partial.swiftmodule",
+    "swift-dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/DiskStorage.swiftdeps",
+    "diagnostics": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/DiskStorage.dia"
+  },
+  "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/Hasher.swift": {
+    "dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Hasher.d",
+    "object": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Hasher.swift.o",
+    "swiftmodule": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Hasher~partial.swiftmodule",
+    "swift-dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Hasher.swiftdeps",
+    "diagnostics": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Hasher.dia"
+  },
+  "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/MemoryCache.swift": {
+    "dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/MemoryCache.d",
+    "object": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/MemoryCache.swift.o",
+    "swiftmodule": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/MemoryCache~partial.swiftmodule",
+    "swift-dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/MemoryCache.swiftdeps",
+    "diagnostics": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/MemoryCache.dia"
+  },
+  "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/PendingOps.swift": {
+    "dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/PendingOps.d",
+    "object": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/PendingOps.swift.o",
+    "swiftmodule": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/PendingOps~partial.swiftmodule",
+    "swift-dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/PendingOps.swiftdeps",
+    "diagnostics": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/PendingOps.dia"
+  },
+  "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Metrics/Logger.swift": {
+    "dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Logger.d",
+    "object": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Logger.swift.o",
+    "swiftmodule": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Logger.swiftdeps",
+    "diagnostics": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Logger.dia"
+  },
+  "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Metrics/Metrics.swift": {
+    "dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Metrics.d",
+    "object": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Metrics.swift.o",
+    "swiftmodule": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Metrics~partial.swiftmodule",
+    "swift-dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Metrics.swiftdeps",
+    "diagnostics": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Metrics.dia"
+  },
+  "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Transformers/AnyTransformer.swift": {
+    "dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/AnyTransformer.d",
+    "object": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/AnyTransformer.swift.o",
+    "swiftmodule": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/AnyTransformer~partial.swiftmodule",
+    "swift-dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/AnyTransformer.swiftdeps",
+    "diagnostics": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/AnyTransformer.dia"
+  }
+}

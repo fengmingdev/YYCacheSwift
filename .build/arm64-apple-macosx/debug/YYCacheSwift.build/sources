@@ -1,0 +1,9 @@
+/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Cache.swift
+/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/CoalescingWriter.swift
+/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/DiskStorage.swift
+/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/Hasher.swift
+/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/MemoryCache.swift
+/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/PendingOps.swift
+/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Metrics/Logger.swift
+/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Metrics/Metrics.swift
+/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Transformers/AnyTransformer.swift

@@ -1,0 +1,778 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.xctest/Contents/MacOS/YYCacheSwiftPackageTests",
+      "packagePath" : "/Users/fengming/Desktop/YYCacheSwift",
+      "productName" : "YYCacheSwiftPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.YYCacheSwift-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/sources",
+      "importPath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Cache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/CoalescingWriter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/DiskStorage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/Hasher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/MemoryCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/PendingOps.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Metrics/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Metrics/Metrics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Transformers/AnyTransformer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "YYCacheSwift",
+      "moduleOutputPath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules/YYCacheSwift.swiftmodule",
+      "objects" : [
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Cache.swift.o",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/CoalescingWriter.swift.o",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/DiskStorage.swift.o",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Hasher.swift.o",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/MemoryCache.swift.o",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/PendingOps.swift.o",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Logger.swift.o",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Metrics.swift.o",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/AnyTransformer.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/include/YYCacheSwift-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Cache.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/CoalescingWriter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/DiskStorage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Hasher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/MemoryCache.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/PendingOps.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Metrics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/AnyTransformer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules/YYCacheSwift.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Cache.swift",
+        "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/CoalescingWriter.swift",
+        "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/DiskStorage.swift",
+        "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/Hasher.swift",
+        "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/MemoryCache.swift",
+        "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/PendingOps.swift",
+        "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Metrics/Logger.swift",
+        "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Metrics/Metrics.swift",
+        "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Transformers/AnyTransformer.swift"
+      ],
+      "tempsPath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.YYCacheSwiftPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.build/sources",
+      "importPath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules/YYCacheSwiftTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "YYCacheSwiftPackageTests",
+      "moduleOutputPath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules/YYCacheSwiftPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.build/include/YYCacheSwiftPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules/YYCacheSwiftPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.YYCacheSwiftTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/sources",
+      "importPath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Tests/YYCacheSwiftTests/CacheTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules/YYCacheSwift.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "YYCacheSwiftTests",
+      "moduleOutputPath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules/YYCacheSwiftTests.swiftmodule",
+      "objects" : [
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/CacheTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/CacheTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules/YYCacheSwiftTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/fengming/Desktop/YYCacheSwift/Tests/YYCacheSwiftTests/CacheTests.swift"
+      ],
+      "tempsPath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "YYCacheSwift" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "YYCacheSwift",
+      "-c",
+      "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Cache.swift",
+      "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/CoalescingWriter.swift",
+      "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/DiskStorage.swift",
+      "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/Hasher.swift",
+      "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/MemoryCache.swift",
+      "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/PendingOps.swift",
+      "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Metrics/Logger.swift",
+      "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Metrics/Metrics.swift",
+      "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Transformers/AnyTransformer.swift",
+      "-I",
+      "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/include/YYCacheSwift-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "YYCacheSwiftPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "YYCacheSwiftPackageTests",
+      "-c",
+      "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.build/include/YYCacheSwiftPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "YYCacheSwiftTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "YYCacheSwiftTests",
+      "-c",
+      "/Users/fengming/Desktop/YYCacheSwift/Tests/YYCacheSwiftTests/CacheTests.swift",
+      "-I",
+      "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "YYCacheSwift" : [
+
+    ],
+    "YYCacheSwiftPackageTests" : [
+      "YYCacheSwiftTests",
+      "YYCacheSwift"
+    ],
+    "YYCacheSwiftTests" : [
+      "YYCacheSwift"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Cache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/CoalescingWriter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/DiskStorage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/Hasher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/MemoryCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Internal/PendingOps.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Metrics/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Metrics/Metrics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Sources/YYCacheSwift/Transformers/AnyTransformer.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/sources"
+    },
+    "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.build/sources"
+    },
+    "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/AnyTransformer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Cache.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/CoalescingWriter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/DiskStorage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Hasher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/MemoryCache.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/Metrics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwift.build/PendingOps.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/CacheTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/fengming/Desktop/YYCacheSwift/Tests/YYCacheSwiftTests/CacheTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/sources"
+    },
+    "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

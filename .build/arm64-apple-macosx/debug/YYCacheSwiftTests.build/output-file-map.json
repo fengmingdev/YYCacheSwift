@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/master.swiftdeps"
+  },
+  "/Users/fengming/Desktop/YYCacheSwift/Tests/YYCacheSwiftTests/CacheTests.swift": {
+    "dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/CacheTests.d",
+    "object": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/CacheTests.swift.o",
+    "swiftmodule": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/CacheTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/CacheTests.swiftdeps",
+    "diagnostics": "/Users/fengming/Desktop/YYCacheSwift/.build/arm64-apple-macosx/debug/YYCacheSwiftTests.build/CacheTests.dia"
+  }
+}
