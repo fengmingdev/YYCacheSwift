@@ -12,26 +12,37 @@ YYCacheSwift
 - 平台：iOS 13+/macOS 10.15+/tvOS 13+/watchOS 6+
 
 安装（SPM）
-在 Package.swift 中添加：
+在 `Package.swift` 中添加：
 
+```swift
 dependencies: [
   .package(url: "https://github.com/fengmingdev/YYCacheSwift.git", branch: "main")
 ]
+```
 
 快速上手
+```swift
 // Data 缓存
 let cache = makeDataCache(configuration: .default(name: "images"))
 try await cache.set(data, forKey: key, ttl: 3600)
 let hit = try await cache.value(forKey: key)
+```
 
+```swift
 // Codable 缓存
 struct User: Codable { let id: String; let name: String }
 let userCache = makeCodableCache(configuration: .default(name: "users"))
 try await userCache.set(User(id: "1", name: "A"), forKey: "1")
+```
 
+```swift
 // NSSecureCoding 缓存
-final class Person: NSObject, NSSecureCoding { ... }
+final class Person: NSObject, NSSecureCoding {
+    static var supportsSecureCoding: Bool { true }
+    // 实现 encode(with:) / init(coder:)
+}
 let personCache: Cache<Person> = makeNSSecureCodingCache(configuration: .default(name: "persons"))
+```
 
 配置
 - 内存（CacheConfiguration.Memory）：countLimit / costLimit / ageLimit / autoTrimInterval
@@ -39,12 +50,14 @@ let personCache: Cache<Person> = makeNSSecureCodingCache(configuration: .default
 - 其他：keyEncoder（默认直传，生产建议 SHA256）、loggingEnabled（默认 Debug 开启）、metricsEnabled
 
 键编码示例（推荐 SHA256）：
+```swift
 import CryptoKit
 var cfg = CacheConfiguration.default(name: "images")
 cfg.keyEncoder = { key in
-  let digest = SHA256.hash(data: Data(key.utf8))
-  return digest.map { String(format: "%02x", $0) }.joined()
+    let digest = SHA256.hash(data: Data(key.utf8))
+    return digest.map { String(format: "%02x", $0) }.joined()
 }
+```
 
 逐项 TTL 与修剪优先级
 set(_:ttl:) 会同时影响内存与磁盘；磁盘端以 expire_at 列存储，每次读取会清除过期项，并在定时修剪中优先清理。
@@ -52,9 +65,11 @@ set(_:ttl:) 会同时影响内存与磁盘；磁盘端以 expire_at 列存储，
 - 磁盘：TTL → ageLimit → count → size
 
 观测与日志
+```swift
 let snap = await cache.metrics.snapshot()
 // memoryHits/diskHits/readsBytes/writesBytes/trimsCount/trimsBytes/get/set 累计时延
 // Debug 下默认输出调试日志至控制台与 Caches/YYCacheSwift/logs
+```
 
 并发
 - 读去重：同 key 并发 value(forKey:) 只触发一次磁盘读
@@ -70,6 +85,9 @@ let snap = await cache.metrics.snapshot()
 - Logger 基于 YCLogger，可在 configuration.loggingEnabled 控制
 - 指标为近似观测，聚合在 YCMetrics，抓取快照后自行计算均值/百分位
 - CacheConfiguration.Memory 的 releaseAsynchronously/releaseOnMainThread 为兼容占位，当前实现不影响对象释放时机
+
+许可证
+本项目在 MIT 许可证下发布。详见 `LICENSE`。
 
 许可
 本项目遵循与原 YYCache 相同的开源精神，欢迎 PR 与 Issue！
